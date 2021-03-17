@@ -12,20 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Meditation"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MoreState"></activity>
+        <activity android:name=".MenuAct"></activity>
+        <activity android:name=".MoreState" />
         <activity
             android:name=".Menu"
-            android:label="@string/title_activity_menu">
-
-        </activity>
+            android:label="@string/title_activity_menu"></activity>
         <activity android:name=".RegActivity" />
         <activity android:name=".Onboarding" />
-        <activity android:name=".SplashScreen" />
-        <activity android:name=".MainActivity"> <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

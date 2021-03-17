@@ -13,9 +13,7 @@
         android:layout_height="wrap_content"
 
         android:background="@color/back"
-        app:itemIconTint="@color/white"
-        app:itemRippleColor="#FFFFFF"
-        app:itemTextColor="#FFFFFF"
+        app:itemIconTint="@drawable/itemcolor"
         app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

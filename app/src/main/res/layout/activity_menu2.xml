@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/back"
     android:layout_height="match_parent"
-    tools:context=".MoreState">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Здесь будет текст статей"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:fontFamily="@font/alegreyaregular"
-        />
+    android:background="@color/back"
+    tools:context=".MenuAct">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/white"
+    android:text="Тут будет меню"
+    android:textSize="35dp"
+    android:fontFamily="@font/alegreyamedium"
+    android:gravity="center"
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>
